@@ -2,13 +2,13 @@
 Small Chrome extension to give the option to re-enable YouTube embeds
 
 # How to install
-Go to `chrome://extensions`
-Enable Developer Mode (top right)
-Load an extension (top left)
-Select the folder containing this extension
+- Go to `chrome://extensions`
+- Enable Developer Mode (top right)
+- Load an extension (top left)
+- Select the folder containing this extension
 
 # How to use
-A new button will appear on the top right of the watch section
-You can click on this to toggle the state of the extension
-If the emoji is coloured, simultaneous streams is enabled
-If the emoji is grayscale, simultaneous streams is disabled
+- A new button will appear on the top right of the watch section
+- You can click on this to toggle the state of the extension
+ - If the emoji is coloured, simultaneous streams is enabled
+ - If the emoji is grayscale, simultaneous streams is disabled
