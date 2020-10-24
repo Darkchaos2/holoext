@@ -1,0 +1,14 @@
+{
+	"name": "HoloTools Extension",
+	"version": "0.1",
+	"description": "Re-enables simultaneous watching on HoloTools, with a toggle button",
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"matches": ["*://*.hololive.jetri.co/*"],
+			"run_at": "document_end",
+			"js": ["watch.js"],
+			"css": ["watch.css"]
+		}
+	]
+}
