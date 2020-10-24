@@ -6,6 +6,7 @@
 	"content_scripts": [
 		{
 			"matches": ["*://*.hololive.jetri.co/*"],
+			// "include_globs": ["*#/watch*"],
 			"run_at": "document_end",
 			"js": ["watch.js"],
 			"css": ["watch.css"]
